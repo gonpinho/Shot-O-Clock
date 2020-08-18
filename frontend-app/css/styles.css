@@ -1,0 +1,214 @@
+h1 {
+    font-weight: 700;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+#fun-facts {
+    min-height: 100px;
+    margin: 0 auto; 
+    width: 90%; 
+    text-align: center;
+
+    /* border: 2px solid black; 
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    */
+}
+
+.index {
+    background-color: #000000;
+    text-align: center;
+}
+
+#logo-home {
+    width: 250px;
+    margin-top: 12.5%;
+}
+
+#start-button {
+    width: 200px;
+    margin-top: 5%;
+}
+
+#tagline {
+    width: 100px;
+    margin-top: 5%;
+}
+
+
+.bordered {
+    min-height: 450px;
+    padding: 20px 0;
+    width: 90%; 
+    /* border: 2px solid black; 
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5); 
+   background-image: url('../resources/frame-20.png');
+   */
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+#bar img {
+    margin: 0 auto;
+    text-align: center;
+}
+#party-description {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#bar {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-box {
+    padding: 20px 40px;
+    margin-bottom: 0px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.spotify {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#left-arrow {
+    left: 100px;
+    top: 40%;
+    width: 40px;
+    display: inline;
+    position: absolute;
+    cursor: pointer;
+}
+
+#right-arrow {
+    right: 100px;
+    top: 40%;
+    width: 40px;
+    display: inline;
+    position: absolute;
+    cursor: pointer;
+}
+
+#cocktail-img {
+    display: inline;
+    height: 160px;
+    padding-top: 20px;
+}
+
+#test-button {
+    cursor: pointer;
+}
+
+#coktail-name {
+    padding-top: 40px;
+}
+
+.buttons-place {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#cocktail-prep {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
+.modal-btn {
+    width: 100px;
+}
+
+.left-btn {
+    text-align: right;
+    padding-right: 5px;
+}
+
+.line {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.right-btn {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.modal-header {
+    border-bottom: 0px;
+}
+
+.modal-fullscreen {
+    background: transparent;
+    text-align:center;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+.modal-fullscreen .modal-content {
+    background: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-align:center;
+    color:#FFF;
+    padding-top:200px;
+    
+}
+.modal-backdrop.modal-backdrop-fullscreen {
+    background: #000000;
+
+}
+
+.modal-backdrop.modal-backdrop-fullscreen.in {
+    opacity: .60;
+    filter: alpha(opacity=60);
+}
+  
+  /* .modal-fullscreen size: we use Bootstrap media query breakpoints */
+  
+.modal-fullscreen .modal-dialog {
+    margin: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding: 0px;
+}
+  
+.modal-header > h1 {
+      color: #FFF !important;
+      font-size: 2em !important;	
+} 
+  
+.modal-header > .form {
+      padding-top: 100px;	
+}
+  
+@media (min-width: 768px) {
+    .modal-fullscreen .modal-dialog {
+        width: 750px;
+    }  
+    .modal-header > h1 {
+        font-size: 4em !important;	
+    }
+    h1.blog_custom {
+        font-size: 5em !important;
+    }
+}
+@media (min-width: 992px) {
+    .modal-fullscreen .modal-dialog {
+      width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .modal-fullscreen .modal-dialog {
+       width: 1170px;
+    }
+}

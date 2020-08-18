@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+  <title>Shot O'Clock</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    
+
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <div id="fsModal"
+    class="modal modal-fullscreen fade animated bounceIn"
+    tabindex="-1"
+    role="dialog"
+    aria-labelledby="myModalLabel"
+    aria-hidden="true">
+
+ <!-- dialog -->
+ <div class="modal-dialog">
+
+   <!-- content -->
+   <div class="modal-content">
+
+     <!-- header -->
+     <div class="modal-header">
+       <h1>Do you want to pimp your party?</h1>
+      
+      </div>  
+  
+      <div class="row">
+      <div class="col-lg-6 left-btn">
+        <button class="btn btn-outline-danger modal-btn" data-dismiss="modal">No</button>
+      </div>
+
+      <div class="col-lg-6 right-btn">
+         <button id="pimpUpTheParty" class="btn btn-outline-success modal-btn" data-dismiss="modal">Yes</button>
+      </div>
+      </div>
+   </div>
+   <!-- content -->
+
+ </div>
+ <!-- dialog -->
+
+ <!-- web -->
+</div>
+
+    <div class="container">
+
+      <!-- <h1 id="party-title" class="text-center"></h1> -->
+      <div class="logo text-center">
+        <img id="logo"></>
+        <p id="party-description" class="text-center mt-4"></p>
+      </div>
+
+          <div class="row mt-4">
+
+            <div class="col-lg-6 spotify">
+                <h1 class="text-center">THE MUSIC</h1>
+                <div id="frame-1" class="bordered frame-1">
+                    <iframe id="spotify-player" src="" width="440" height="410" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+               
+            </div>
+
+            <div class="col-lg-6">
+              <h1 class="text-center">THE BAR</h1>
+                <div id="frame-2" class="bordered frame-2">
+                  <div id="bar">
+
+                      <h2 id="coktail-name"></h2>
+                      <img id="left-arrow">
+                      <img id="cocktail-img"></>
+                      <ul id="cocktail-prep"></ul>
+                      <img id="right-arrow">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          
+      <h1 class="text-center mt-4">THE FACTS</h1>
+        
+       <div class="row">
+         
+          <img class="line"></>
+           <div id="fun-facts" class="col-ld-12">
+    
+           
+         </div>
+
+
+         
+       </div>
+
+       <div class="buttons-place mb-5">
+        <button id="test-button" type="button" class="btn btn-warning mt-2">Finish Party</button>
+        <a href=""><button id="new" type="button" class="btn btn-warning mt-2">Give Me More</button></a>
+     </div>
+       
+
+  </div>
+
+   
+</body>
+</html>
+
