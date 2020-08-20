@@ -1,4 +1,4 @@
-# Shot-O-Clock
+# Shot O' Clock
 
 <p align="center">
   <img src="https://dev.lisa-cc.pt/resources/shotoclock.png">
